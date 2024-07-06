@@ -174,3 +174,4 @@ wheels/
 
 trained_model/
 data/
+kaggle.json
