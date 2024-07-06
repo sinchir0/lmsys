@@ -1,0 +1,30 @@
+[project]
+name = "kaggle-at-paperspace-template"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "sinchir0", email = "dekunattou@gmail.com" }
+]
+dependencies = [
+    "ipython>=8.26.0",
+    "ipykernel>=6.29.5",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[project.scripts]
+"kaggle-at-paperspace-template" = "kaggle_at_paperspace_template:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kaggle_at_paperspace_template"]
