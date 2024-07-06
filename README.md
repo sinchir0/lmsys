@@ -1,14 +1,14 @@
-# <COMPETIION_NAME>
+# lmsys
 
 ## インスタンスの維持
 ```
-cd /notebooks/<COMPETIION_NAME>
+cd /notebooks/lmsys
 nohup ./sleep.sh &
 ```
 
 ## バックグラウンドでの動作
 ```
-cd /notebooks/<COMPETIION_NAME>
+cd /notebooks/lmsys
 # あらかじめ、mutiple_run.sh内に実行したいnotebookを記載する
 nohup ./multiple_run.sh &
 ```
@@ -26,7 +26,7 @@ pkill runnb
 
 ## GitHubからのpull
 ```
-cd /notebooks/<COMPETIION_NAME>/
+cd /notebooks/lmsys/
 ssh-keygen -t ed25519 -C "sinchir0"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
@@ -41,14 +41,14 @@ https://github.com/settings/keys
 ```
 git pull origin main
 # commitをする場合は以下も追加
-git config --global user.email "<YOUR_EMAIL_ADDRESS>"
+git config --global user.email "dekunattou@gmail.com"
 ```
 
 ## git add, commit, push
 
 ```
 git add -u
-git config --global user.email "<YOUR_EMAIL_ADDRESS>"
+git config --global user.email "dekunattou@gmail.com"
 git commit -m "add"
 git push origin main
 ```
@@ -69,7 +69,7 @@ vmstat -t 2
 - 適切なパスと権限を付与する
 ```
 mkdir -p ~/.kaggle/
-cp /notebooks/<COMPETIION_NAME>/kaggle.json ~/.kaggle/
+cp /notebooks/lmsys/kaggle.json ~/.kaggle/
 chmod 600 ~/.kaggle/kaggle.json
 ```
 
