@@ -61,6 +61,8 @@ pexpect==4.9.0
 platformdirs==4.2.2
     # via black
     # via jupyter-core
+polars==1.1.0
+    # via kaggle-at-paperspace-template
 prompt-toolkit==3.0.47
     # via ipython
 psutil==6.0.0
