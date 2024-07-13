@@ -25,19 +25,18 @@ pkill runnb
 ```
 
 ## GitHubからのpull
+
+秘密鍵、公開鍵の作成
 ```
 cd /notebooks/lmsys/
-ssh-keygen -t ed25519 -C "sinchir0"
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
-cat ~/.ssh/id_ed25519.pub
+./make_github_key.sh 
 ```
 
-```
-以下のリンクで、New SSH Keyを行う
+出力された公開鍵を以下に入力する
 https://github.com/settings/keys
-```
 
+
+pullする
 ```
 git pull origin main
 # commitをする場合は以下も追加
