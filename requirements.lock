@@ -34,6 +34,8 @@ isort==5.13.2
     # via kaggle-at-paperspace-template
 jedi==0.19.1
     # via ipython
+joblib==1.4.2
+    # via scikit-learn
 jupyter-client==8.6.2
     # via ipykernel
 jupyter-core==5.7.2
@@ -49,6 +51,10 @@ mypy-extensions==1.0.0
     # via mypy
 nest-asyncio==1.6.0
     # via ipykernel
+numpy==2.0.0
+    # via kaggle-at-paperspace-template
+    # via scikit-learn
+    # via scipy
 packaging==24.1
     # via black
     # via ipykernel
@@ -80,11 +86,17 @@ pyzmq==26.0.3
     # via jupyter-client
 ruff==0.5.1
     # via kaggle-at-paperspace-template
+scikit-learn==1.5.1
+    # via kaggle-at-paperspace-template
+scipy==1.14.0
+    # via scikit-learn
 six==1.16.0
     # via asttokens
     # via python-dateutil
 stack-data==0.6.3
     # via ipython
+threadpoolctl==3.5.0
+    # via scikit-learn
 tornado==6.4.1
     # via ipykernel
     # via jupyter-client

@@ -13,6 +13,8 @@ dependencies = [
     "isort>=5.13.2",
     "mypy>=1.10.1",
     "polars>=1.1.0",
+    "numpy>=2.0.0",
+    "scikit-learn>=1.5.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
