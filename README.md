@@ -1,14 +1,9 @@
 # lmsys
 
-## インスタンスの維持
-```
-cd /notebooks/lmsys
-nohup ./sleep.sh &
-```
-
 ## バックグラウンドでの動作
 ```
 cd /notebooks/lmsys
+nohup ./sleep.sh &
 # あらかじめ、mutiple_run.sh内に実行したいnotebookを記載する
 nohup ./multiple_run.sh &
 ```
