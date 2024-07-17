@@ -24,7 +24,7 @@ pkill runnb
 秘密鍵、公開鍵の作成
 ```
 cd /notebooks/lmsys/
-./make_github_key_and_set_email.sh 
+./make_github_key_and_set_email.sh
 ```
 
 出力された公開鍵を以下に入力する
