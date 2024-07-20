@@ -54,6 +54,19 @@ vmstat -t 2
 - printで出力したものは残る
 - notebookの一番最後に実行し、Notebookの機能で出力したものは残らない
 
+# コンペ開始時の手順
+
+## データの準備
+```
+mkdir data
+```
+
+- kaggle.jsonをdataにアップロードする
+
+```
+./fetch_data.sh lmsys-chatbot-arena
+```
+
 ## kaggle cliの利用方法
 
 ### 準備
