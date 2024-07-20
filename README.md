@@ -82,3 +82,19 @@ chmod 600 ~/.kaggle/kaggle.json
 ```
 pip install kaggle
 ```
+
+# 環境設定
+
+## zshのインストール
+## https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+sudo apt install zsh
+
+## starshipの設定
+## https://starship.rs/ja-JP/guide/
+curl -sS https://starship.rs/install.sh | sh
+echo "zsh-autosuggestions" >> ~/.zshrc
+
+## zsh-autosuggestionsの設定
+## https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
