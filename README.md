@@ -92,15 +92,15 @@ unzip data/lmsys-chatbot-arena.zip -d data
 # 環境設定
 
 ## zshのインストール
-## https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 sudo apt install zsh
 
 ## starshipの設定
-## https://starship.rs/ja-JP/guide/
+https://starship.rs/ja-JP/guide/
 curl -sS https://starship.rs/install.sh | sh
 echo "$(starship init zsh)" >> ~/.zshrc
 
 ## zsh-autosuggestionsの設定
-## https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
