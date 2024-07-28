@@ -104,3 +104,10 @@ echo "$(starship init zsh)" >> ~/.zshrc
 https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+echo 'HISTFILE=~/.zsh_history' >> ~/.zshrc
+echo 'HISTSIZE=1000' >> ~/.zshrc
+echo 'SAVEHIST=1000' >> ~/.zshrc
+echo 'setopt HIST_IGNORE_DUPS' >> ~/.zshrc
+echo 'setopt SHARE_HISTORY' >> ~/.zshrc
+echo 'setopt INC_APPEND_HISTORY' >> ~/.zshrc
+echo 'source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
