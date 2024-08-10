@@ -1,5 +1,10 @@
 # lmsys
 
+## ゴミの掃除(paperspace向け)
+```
+rm -rf ./.Trash-0
+```
+
 ## バックグラウンドでの動作
 ```
 cd /notebooks/lmsys
